@@ -11,7 +11,8 @@ def main():
     for loop_counter1 in range(256):
         for loop_counter2 in range(256):
             for loop_counter3 in range(256):
-                print ("RGB({},{},{})".format(loop_counter1, loop_counter2, loop_counter3))
+                print("RGB({},{},{})".format(loop_counter1,
+                                             loop_counter2, loop_counter3))
 
 
 if __name__ == "__main__":
